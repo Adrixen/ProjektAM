@@ -28,10 +28,10 @@ const DrawerMenuContainer = (props) => {
 }
 
 const DrawerNavigator = () => (
-  <Drawer.Navigator initialRouteName="Home1" drawerContent={DrawerMenuContainer}>
-    <Drawer.Screen name="Home1" component={TabNavigator} />
-        <Drawer.Screen name="frontfrog" component={frontfrog} />
-        <Drawer.Screen name="bluefrog" component={bluefrog} />
+  <Drawer.Navigator initialRouteName="Home!" drawerContent={DrawerMenuContainer}>
+    <Drawer.Screen name="Home!" component={TabNavigator} />
+        <Drawer.Screen name="Lista Samochodów" component={frontfrog} />
+        <Drawer.Screen name="Wykonaj Zdjęcie" component={bluefrog} />
         <Drawer.Screen name="yellowfrog" component={yellowfrog} />
         <Drawer.Screen name="greenfrog" component={greenfrog} />
         <Drawer.Screen name="backfrog" component={backfrog} />
