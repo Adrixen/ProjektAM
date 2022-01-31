@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4474cdab-1068-443c-9c43-a459044977a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/yellowfrog/yellowfrog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/yellowfrog/yellowfrog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/bluefrog/bluefrog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/bluefrog/bluefrog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
