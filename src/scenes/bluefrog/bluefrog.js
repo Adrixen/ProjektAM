@@ -59,7 +59,7 @@ export default function Add({ navigation })
       }
         const config = {
             headers: {
-              'Authorization': "Client-ID acce204624c722a",
+              Authorization: "Client-ID acce204624c722a",
             },
           };
            axios.post("https://api.imgur.com/3/album/xt06e9l/images", formData, config).then((res) => {

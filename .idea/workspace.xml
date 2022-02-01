@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4474cdab-1068-443c-9c43-a459044977a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/navigation/stacks/Stacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/stacks/Stacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/navigation/stacks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/navigation/stacks/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/bluefrog/bluefrog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/bluefrog/bluefrog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/yellowfrog/yellowfrog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/yellowfrog/yellowfrog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +38,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

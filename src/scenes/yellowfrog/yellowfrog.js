@@ -1,5 +1,6 @@
 import React from "react";
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import {createStackNavigator} from "@react-navigation/stack";
 const image = { uri: "https://reactjs.org/logo-og.png" };
 var xmlHttp = null;
 

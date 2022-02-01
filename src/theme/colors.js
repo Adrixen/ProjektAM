@@ -1,9 +1,9 @@
 const colors = {
-  darkPurple: '#231d54',
+  darkPurple: '#000000', //black
   purple: '#8100ff',
-  lightPurple: '#9388db',
-  lightGrayPurple: '#f7f7fb',
-  pink: '#ff3d69',
+  lightPurple: '#990000', //przyciski
+  lightGrayPurple: '#efefef', //grey
+  pink: '#990000', //przyciski2
   gray: '#797777',
 }
 

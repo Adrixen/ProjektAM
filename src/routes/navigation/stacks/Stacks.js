@@ -6,6 +6,7 @@ import Profile from 'scenes/profile'
 import Details from 'scenes/details'
 import HeaderLeft from './HeaderLeft'
 import HeaderTitle from './HeaderTitle'
+import notes from 'scenes/notes'
 
 // ------------------------------------
 // Constants
@@ -61,6 +62,31 @@ export const ProfileNavigator = () => (
       component={Profile}
       options={({ navigation }) => ({
         title: 'Profile',
+        headerLeft: () => <HeaderLeft navigation={navigation} />,
+        headerTitle: () => <HeaderTitle />,
+      })}
+    />
+    <Stack.Screen
+      name="Details"
+      component={Details}
+      options={{
+        title: 'Details',
+      }}
+    />
+  </Stack.Navigator>
+)
+
+export const NotesNavigator = () => (
+  <Stack.Navigator
+    initialRouteName="notes"
+    headerMode="screen"
+    screenOptions={navigationProps}
+  >
+    <Stack.Screen
+      name="notes"
+      component={notes}
+      options={({ navigation }) => ({
+        title: 'notes',
         headerLeft: () => <HeaderLeft navigation={navigation} />,
         headerTitle: () => <HeaderTitle />,
       })}
