@@ -78,14 +78,7 @@ const Home = ({ navigation }) => (
                 <Example1 />
             </Center>
           </NativeBaseProvider>
-              <Button
-                title="Szczegóły"
-                color="white"
-                backgroundColor={colors.lightPurple}
-                onPress={() => {
-                  navigation.navigate('Details', { from: 'Home' })
-                }}
-              />
+
                   <Text style={styles.title}> </Text>
   </View>
 )

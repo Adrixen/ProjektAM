@@ -26,12 +26,14 @@ axios.get('https://api.github.com/gists/070ed3670d5215d0d6b3347e67244053')
     <View style={styles.container}>
       <ScrollView><Text>{state}</Text></ScrollView>
       <StatusBar style="auto" />
+      <Text style={styles.title}> </Text>
       <Button
       title="Wyswietl samochody"
-      color="green"
+      color="#990000"
       onPress={()=> {
       funkcja()}}
       />
+      <Text style={styles.title}> </Text>
     </View>
   );
 }

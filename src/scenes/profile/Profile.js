@@ -36,7 +36,8 @@ const Example = () => {
 const Profile = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Profile</Text>
+        <Text style={styles.title}> </Text>
+    <Text style={styles.title}>Profil</Text>
               <NativeBaseProvider>
                 <Center flex={1} px="3">
                     <Example />
@@ -44,17 +45,24 @@ const Profile = ({ navigation }) => (
               </NativeBaseProvider>
 
                     <Text fontSize="md" fontWeight="medium" color="coolGray.800">
-                      Imię: Anita
-                      Nazwisko: Świerszcz
+                      Imię i nazwisko: Anita Świerszcz
+                                                                                                                                   <Text style={styles.title}> </Text>
+
                     </Text>
+                    <Text fontSize="md" fontWeight="medium" color="coolGray.800">
+                    Stanowisko: Sprzedawca
+                    </Text>
+                                                                                                                                      <Text style={styles.title}> </Text>
+                                                                                                                                      <Text style={styles.title}> </Text>
     <Button
-      title="Go to Details"
+      title="Lista zadań"
       color="white"
       backgroundColor={colors.lightPurple}
       onPress={() => {
         navigation.navigate('Details', { from: 'Profile' })
       }}
     />
+    <Text style={styles.title}> </Text>
   </View>
 )
 
