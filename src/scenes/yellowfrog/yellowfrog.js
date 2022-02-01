@@ -1,45 +1,28 @@
 import React from "react";
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import {createStackNavigator} from "@react-navigation/stack";
-const image = { uri: "https://reactjs.org/logo-og.png" };
-var xmlHttp = null;
+import { AspectRatio, Box, Center, NativeBaseProvider } from "native-base";
+import {Image} from 'react-native' ;
 
-function GetCustomerInfo()
-{
-    var CustomerNumber = document.getElementById( "TextBoxCustomerNumber" ).value;
-    var Url = "GetCustomerInfoAsJson.aspx?number=" + CustomerNumber;
 
-    xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = ProcessRequest;
-    xmlHttp.open( "GET", Url, true );
-    xmlHttp.send( null );
-}
+const Example = () => {
+  return <AspectRatio ratio={{
+    base: 3 / 4,
+    md: 9 / 10
+  }} height={{
+    base: 200,
+    md: 400
+  }}>
+      <Image resizeMode="cover" source={{
+      uri: "https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    }} alt="Picture of a Flower" />
+    </AspectRatio>;
+};
 
-const App = () => (
-  <View style={styles.container}>
-    <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-      <Text style={styles.text}>yellowfrog</Text>
-
-    </ImageBackground>
-  </View>
-);
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  image: {
-    flex: 1,
-    justifyContent: "center"
-  },
-  text: {
-    color: "white",
-    fontSize: 42,
-    lineHeight: 84,
-    fontWeight: "bold",
-    textAlign: "center",
-    backgroundColor: "#000000c0"
-  }
-});
-
-export default App;
+    export default () => {
+        return (
+          <NativeBaseProvider>
+            <Center flex={1} px="3">
+                <Example />
+            </Center>
+          </NativeBaseProvider>
+        );
+    };
