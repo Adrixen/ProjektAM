@@ -33,7 +33,7 @@ const DrawerNavigator = () => (
         <Drawer.Screen name="Lista Samochodów" component={frontfrog} />
         <Drawer.Screen name="Wykonaj Zdjęcie" component={bluefrog} />
         <Drawer.Screen name="Zdjęcie kwiata" component={yellowfrog} />
-        <Drawer.Screen name="greenfrog" component={greenfrog} />
+        <Drawer.Screen name="Tooltip" component={greenfrog} />
         <Drawer.Screen name="backfrog" component={backfrog} />
         <Drawer.Screen name="rightfrog" component={rightfrog} />
   </Drawer.Navigator>
